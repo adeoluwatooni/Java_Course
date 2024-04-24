@@ -11,4 +11,12 @@ public class Cake {
     public void setPrice( double price){
         this.price = price;
     }
+
+    public String getFlavor(){
+        return flavor;
+    }
+
+    public void setFlavor(String flavor){
+        this.flavor = flavor;
+    }
 }
