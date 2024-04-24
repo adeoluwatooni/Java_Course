@@ -1,22 +1,28 @@
 package package6;
 
 public class Cake {
-    String flavor;
-    double price;
 
-    public double getPrice (){
-        return price;
+    private String flavor;
+    private double price;
+
+    public Cake(String flavor){
+        setFlavor(flavor);
+        setPrice(9.99);
     }
 
-    public void setPrice( double price){
-        this.price = price;
-    }
-
-    public String getFlavor(){
+    public String getFlavor() {
         return flavor;
     }
 
-    public void setFlavor(String flavor){
+    public void setFlavor(String flavor) {
         this.flavor = flavor;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
     }
 }

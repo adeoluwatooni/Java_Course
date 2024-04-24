@@ -1,20 +1,18 @@
 package package6;
 
 public class BirthdayCake extends Cake{
-    int candles;
 
+    private int candles;
 
-    // Constructor to set the flavor
-    public BirthdayCake(String flavor){
-        this.setFlavor(flavor);
-    };
-
-    public int getCandles(){
-        return candles;
-    };
-
-    public void setCandles(int candleNo){
-        this.candles = candleNo;
+    public BirthdayCake(){
+        super("vanilla");
     }
 
+    public int getCandles() {
+        return candles;
+    }
+
+    public void setCandles(int candles) {
+        this.candles = candles;
+    }
 }
